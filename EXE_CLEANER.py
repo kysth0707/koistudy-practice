@@ -1,7 +1,7 @@
 import os
 
 here = r'E:\GithubProjects\koistudy-practice'
-folders = ['basic100c', 'basic100py']
+folders = ['basic100c', 'basic100py', 'basic100plusplus']
 for folder in folders:
 	for file in os.listdir(f"{here}\\{folder}"):
 		if file.split('.')[-1] == "exe" or file.split('.')[0] == "tempCodeRunnerFile":
